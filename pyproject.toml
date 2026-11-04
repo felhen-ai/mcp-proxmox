@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mcp-proxmox"
-version = "1.2.3"
+version = "1.2.4"
 description = "MCP server for managing Proxmox VE clusters through AI assistants"
 readme = "README.md"
 license = "MIT"
@@ -33,9 +33,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/antonio-mello-ai/mcp-proxmox"
-Repository = "https://github.com/antonio-mello-ai/mcp-proxmox"
-Issues = "https://github.com/antonio-mello-ai/mcp-proxmox/issues"
+Homepage = "https://github.com/felhen-ai/mcp-proxmox"
+Repository = "https://github.com/felhen-ai/mcp-proxmox"
+Issues = "https://github.com/felhen-ai/mcp-proxmox/issues"
 
 [project.scripts]
 mcp-proxmox = "mcp_proxmox.server:main"

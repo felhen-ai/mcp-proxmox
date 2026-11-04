@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.antonio-mello-ai/mcp-proxmox",
+  "name": "io.github.felhen-ai/mcp-proxmox",
   "description": "Manage Proxmox VE clusters through AI assistants — VMs, containers, and more",
   "repository": {
-    "url": "https://github.com/antonio-mello-ai/mcp-proxmox",
+    "url": "https://github.com/felhen-ai/mcp-proxmox",
     "source": "github"
   },
-  "version": "1.2.3",
+  "version": "1.2.4",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "mcp-proxmox",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "transport": {
         "type": "stdio"
       }

@@ -1,5 +1,6 @@
 # mcp-proxmox
 
+<!-- mcp-name: io.github.felhen-ai/mcp-proxmox -->
 <!-- mcp-name: io.github.antonio-mello-ai/mcp-proxmox -->
 
 <a href="https://glama.ai/mcp/servers/antonio-mello-ai/mcp-proxmox">
@@ -281,7 +282,7 @@ Proxmox commonly runs on port `8006`, so check that `PROXMOX_HOST` and `PROXMOX_
 ## Development
 
 ```bash
-git clone https://github.com/antonio-mello-ai/mcp-proxmox.git
+git clone https://github.com/felhen-ai/mcp-proxmox.git
 cd mcp-proxmox
 python -m venv .venv
 source .venv/bin/activate
@@ -301,3 +302,11 @@ mypy src/
 ## License
 
 MIT
+
+## Repository and registry compatibility
+
+The canonical repository is `https://github.com/felhen-ai/mcp-proxmox`. Existing GitHub clone and issue URLs redirect to this repository. Do not recreate a repository at the old address, which would remove those redirects.
+
+The canonical MCP Registry identifier is `io.github.felhen-ai/mcp-proxmox`. The legacy identifier `io.github.antonio-mello-ai/mcp-proxmox` remains supported with a separate `server.legacy.json` manifest. Both identifiers install the same `mcp-proxmox` package from PyPI, and the package name and CLI command remain unchanged. Keep both ownership markers in this README so future releases can be registered under either identifier.
+
+New Docker publications use `ghcr.io/felhen-ai/mcp-proxmox`. Existing images and tags at `ghcr.io/antonio-mello-ai/mcp-proxmox` are retained for compatibility; they are not deleted or silently replaced. The legacy Glama badge above remains a discovery link until that directory migrates its entry.
